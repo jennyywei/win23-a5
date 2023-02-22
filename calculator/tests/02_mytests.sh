@@ -23,7 +23,7 @@ if [[ $($CALCULATOR 8 / 4) -ne 2 ]]; then
 fi
 
 # Test 03: Ensure program works with multiplication
-if [[ $($CALCULATOR 8 * 4) -ne 32 ]]; then  
+if [[ $($CALCULATOR 8 '*' 4) -ne 32 ]]; then  
   echo 'ERROR! A valid run of the calculator (8 * 4) failed to produce 32 as an output!'
   exit 1
 fi
